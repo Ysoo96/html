@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>5장 연습문제 1</title>
+  <style>
+    #container {
+      width: 500px;
+      margin: 10px auto;
+    }
+    fieldset {
+      margin-bottom: 20px;
+    }
+    form {
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+    }
+    li {
+      line-height: 50px;
+    }
+    label {
+      width: 60px;
+      float: left;
+    }
+    #buttons {
+      width: 400px;
+      margin: 40px auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>예약 정보</h1>
+    <fieldset>
+      <form>
+        <ul>
+          <li>
+            <label for="r-name">이 름</label>
+            <input type="text" id="r-name" placeholder="홍길동" required>
+          </li>
+          <li>
+            <label for="r-phone">전 화</label>
+            <input type="tel" id="r-phone" placeholder="01012341234 (하이픈 제외)" max="11" required>
+          </li>
+          <li>
+            <label for="r-email">이메일</label>
+            <input type="mail" id="r-email" required>
+          </li>
+        </ul>
+        <div id="buttons">
+          <input type="submit" value="예약하기">
+          <input type="reset" value="다시 작성">
+        </div>
+      </form>
+    </fieldset>
+  </div>
+</body>
+</html>
