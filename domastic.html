@@ -24,22 +24,23 @@
       </nav>
     </header>
 
-    <main id="airport">
-      <fieldset>
-        <legend>국내선</legend>
-        <ul class="dairport">
-          <li><a href="#">김포</a></li>
-          <li><a href="#">부산</a></li>
-          <li><a href="#">대구</a></li>
-          <li><a href="#">제주</a></li>
-          <li><a href="#">청주</a></li>
-          <li><a href="#">여수</a></li>
-          <li><a href="#">인천</a></li>
-          <li><a href="#">광주</a></li>
-          <li><a href="#">울산</a></li>
-        </ul>
-      </fieldset>
-    </main>
+    <fieldset>
+      <select name="startair">
+        <option value="start">출발</option>
+        <option value="gimpo">김포국제공항</option>
+        <option value="incheon">인천국제공항</option>
+        <option value="busan">김해국제공항</option>
+        <option value="chungju">청주국제공항</option>
+      </select>
+      <select name="arriveair">
+        <option value="arrive">도착</option>
+        <option value="gimpo">김포국제공항</option>
+        <option value="incheon">인천국제공항</option>
+        <option value="busan">김해국제공항</option>
+        <option value="chungju">청주국제공항</option>
+      </select>
+      <input type="date" value="whatday">
+    </fieldset>
 
   </div>
 </body>
