@@ -3,8 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <title>Travel Login</title>
+  <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-  
+  <div id="container">
+
+    <header>
+      <div id="logo">
+        <a href="home.html">
+          <h1>Travel</h1>
+        </a>
+      </div>
+      <nav>
+        <ul id="topMenu">
+          <li><a href="airplanticket.html">항공권</a></li>
+          <li><a href="#">숙박</a></li>
+          <li><a href="#">투어</a></li>
+          <li><a href="#">문의하기</a></li>
+          <li><a href="login.html">로그인</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="login1">
+      <form action="" autocomplete="off">
+        <fieldset>
+          <h1>로그인</h1>
+          <ul>
+            <li>
+              <label for="uid">아이디</label>
+              <input type="text" id="uid" placeholder="아이디를 입력해주세요." required>
+            </li>
+            <li>
+              <label for="upwd">비밀번호</label>
+              <input type="password" id="upwd" placeholder="8자 이상 입력해주세요." required minlength="8">
+            </li>
+            <div id="login2">
+              <li><label for="autologin"><input type="checkbox" value="autologin">자동로그인</label></li>
+              <input type="button" id="login" value="로그인">
+            </div>
+          </ul>
+        </fieldset>
+      </form>
+    </div>
+  </div>
 </body>
 </html>

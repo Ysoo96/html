@@ -1,0 +1,33 @@
+@import url('home.css');
+
+.contents {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+main > section {
+  margin: 10px 10px;
+}
+main h2 {
+  font-size: 1.2em;
+  line-height: 2.5;
+  font-weight: 700;
+  text-align: center;
+}
+
+#domastic, #abroad {
+  width: 50%;
+}
+
+.detail {
+  margin: 10px 90px;
+}
+.detail > a > img {
+  border-radius: 20px;
+  /* image size */
+  width: 400px;
+  height: 300px;
+}
