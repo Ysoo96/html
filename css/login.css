@@ -18,9 +18,10 @@ fieldset {
   text-align: center;
 }
 fieldset > ul {
+
   background-color: blue;
   line-height: 30px;
-  
+  margin-top: 90px;
 }
 fieldset > ul > li {
   margin: 20px;
@@ -38,10 +39,7 @@ input[type="text"], input[type="password"] {
 #login2 {
   background-color: brown;
 }
-#login2 > label {
-  background-color: yellow  ;
-}
-#login2 > input {
+#login2 > a > input {
   width: 100px;
   margin: 20px;
 }
