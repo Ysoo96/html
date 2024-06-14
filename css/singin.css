@@ -1,1 +1,53 @@
 @import url('home.css');
+
+* {
+  text-align: center;
+}
+
+#singin h1 {
+  margin: 50px;
+}
+
+h5 {
+  margin: 5px;
+  font-size: 15px;
+}
+
+ul {
+  line-height: 40px;
+}
+
+input {
+  border-radius: 5px;
+  border-width: thin;
+  margin: 5px;
+  padding: 5px;
+}
+
+#singin {
+  margin: auto;
+}
+
+#singin label {
+  float: left;
+  font-size: 15px;
+  width: 100px;
+}
+#singin ul {
+  margin: 0 450px;
+}
+
+#singin2 {
+  margin-top: 10px;
+}
+
+#singin2 li {
+  float: left;
+  margin: 20px;
+  background-color: bisque;
+}
+
+#singin2 input {
+  padding: 5px 10px;
+  margin-bottom: 40px;
+}

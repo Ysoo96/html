@@ -25,9 +25,9 @@
       </nav>
     </header>
 
-    <div id="login1">
-      <form action="" autocomplete="off">
-        <fieldset>
+    <form action="" autocomplete="off">
+      <fieldset>
+        <div id="login1">
           <h1>로그인</h1>
           <ul>
             <li>
@@ -38,15 +38,18 @@
               <label for="upwd">비밀번호</label>
               <input type="password" id="upwd" placeholder="8자 이상 입력해주세요." required minlength="8">
             </li>
-            <div id="login2">
-              <li><label for="autologin"><input type="checkbox" value="autologin">자동로그인</label></li>
+          </ul>
+        </div>
+        <div id="login2">
+          <ul>
+            <li><label for="autologin"><input type="checkbox" value="autologin">자동로그인</label></li>
               <a href="home.html"><input type="button" id="login" value="로그인"></a>
               <a href="singin.html"><input type="button" id="singin" value="회원가입"></a>
-            </div>
           </ul>
-        </fieldset>
-      </form>
-    </div>
+        </div>
+      </fieldset>
+    </form>
+
   </div>
 </body>
 </html>

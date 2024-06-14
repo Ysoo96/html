@@ -1,45 +1,41 @@
 @import url('home.css');
 
-#login1 {
-  width: 500px;
-  margin: 0 auto;
-  background-color: violet;
-}
-
-h1 {
-  margin: 20px;
-  font-size: 1.5em;
-  font-weight: 800;
+* {
   text-align: center;
 }
 
 fieldset {
-  height: 500px;
-  text-align: center;
-}
-fieldset > ul {
-
-  background-color: blue;
-  line-height: 30px;
-  margin-top: 90px;
-}
-fieldset > ul > li {
-  margin: 20px;
+  width: 500px;
+  margin: 5% auto;
+  border-width: thin;
 }
 
-label {
-  text-align: right;
-  background-color: red;
+ul {
+  line-height: 40px;
 }
 
-input[type="text"], input[type="password"] {
-  width: 300px;
+input {
+  border-radius: 5px;
+  border-width: thin;
+  margin: 5px;
+  padding: 5px;
 }
 
-#login2 {
-  background-color: brown;
+#login1 h1 {
+  margin: 50px;
 }
-#login2 > a > input {
+
+#login1 {
+  margin: auto;
+}
+
+#login1 label {
+  float: left;
+  font-size: 15px;
   width: 100px;
-  margin: 20px;
+}
+
+#login2 input {
+  padding: 5px 10px;
+  margin-bottom: 40px;
 }
